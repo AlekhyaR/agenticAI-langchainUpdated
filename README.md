@@ -507,20 +507,3 @@ uv sync
 
 Then create your `.env` file, configure your API keys securely, and open the project in VS Code.
 
----
-
-## Security Checklist
-
-Before pushing the project to GitHub:
-
-* [ ] `.env` is included in `.gitignore`
-* [ ] `.venv` is included in `.gitignore`
-* [ ] No API keys are present in Python files
-* [ ] No API keys are present in Jupyter notebooks
-* [ ] No API keys are present in README.md
-* [ ] No API keys are present in Git history
-* [ ] Exposed keys have been revoked and replaced
-* [ ] `uv.lock` is committed to the repository
-* [ ] Dependencies are managed through `pyproject.toml`
-
-**Never commit secrets to GitHub.**
